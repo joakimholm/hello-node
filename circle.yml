@@ -7,3 +7,6 @@ dependencies:
   override:
     - docker-compose -p ci build
     - docker-compose -p ci up -d
+test:
+  override:
+    - echo "Running tests..."
